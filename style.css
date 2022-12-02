@@ -127,9 +127,9 @@ main {
 .intro-2 h2 {
   font-weight: 1000;
   font-size: 38px;
-  line-height: 40px;
   color: #ec5242;
   padding-bottom: 20px;
+  line-height: 40px;
   text-align: center;
 }
 
@@ -626,7 +626,7 @@ main {
   }
 
   .intro h2 {
-    line-height: 7vh;
+    line-height: 9vh;
     justify-content: start;
     margin-left: 70px;
     font-size: 5.5vw;
@@ -635,7 +635,6 @@ main {
 
   .intro-2 h2 {
     margin-top: 10vh;
-    line-height: 5vh;
     font-size: 5vw;
   }
 
@@ -742,6 +741,7 @@ main {
     width: 40vw;
     height: 30vh;
     margin-bottom: 100px;
+    background-color: #ec5242;
   }
 
   .pastconcert h4 {
