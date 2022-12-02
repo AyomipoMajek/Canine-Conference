@@ -654,6 +654,7 @@ main {
     font-size: 1.5vw;
     font-weight: 500;
     width: 80%;
+    line-height: 25px;
     align-self: center;
     margin-top: 20px;
   }
