@@ -596,7 +596,7 @@ main {
   }
 
   .intro h1 {
-    font-size: 3vw;
+    font-size: 50px;
     justify-content: start;
     margin-left: 70px;
     margin-top: 150px;
@@ -608,10 +608,11 @@ main {
   }
 
   .intro h2 {
-    line-height: 8vh;
+    line-height: 7vh;
     justify-content: start;
     margin-left: 70px;
-    font-size: 7vw;
+    font-size: 5.5vw;
+    padding-bottom: 30px;
   }
 
   .intro-2 h2 {
@@ -622,7 +623,7 @@ main {
 
   .info {
     color: #272a31;
-    font-size: 1.5vw;
+    font-size: 25px;
     font-weight: 500;
     width: 60%;
     margin-left: 70px;
@@ -684,7 +685,7 @@ main {
   .date h3 {
     padding-top: 20px;
     color: #272a31;
-    font-size: 3vw;
+    font-size: 35px;
     padding-bottom: 5px;
     margin-left: 70px;
     font-weight: 800;
@@ -693,7 +694,7 @@ main {
   .date h4 {
     padding-top: 5px;
     color: #272a31;
-    font-size: 2vw;
+    font-size: 25px;
     margin-left: 70px;
     padding-bottom: 100px;
   }
@@ -778,12 +779,13 @@ main {
   }
 
   .program h5 {
-    font-size: 3vw;
+    font-size: 50px;
     margin-top: 70px;
   }
 
   .speakers h5 {
-    font-size: 3vw;
+    font-size: 50px;
+    padding-top: 50px;
   }
 
   .featuredSpeakers {
@@ -795,20 +797,20 @@ main {
 
   .spk img {
     width: 15vw;
-    height: 18vh;
+    height: 20vh;
     margin-bottom: 20px;
   }
 
   .spkinfo h6 {
-    font-size: 2.5vw;
+    font-size: 30px;
   }
 
   .spkinfo i {
-    font-size: 1.5vw;
+    font-size: 20px;
   }
 
   .spkinfo p {
-    font-size: 1.5vw;
+    font-size: 25px;
   }
 
   .activities {
@@ -823,20 +825,20 @@ main {
     flex-direction: column;
     background-color: #3c3e42;
     align-items: center;
-    height: 30vh;
+    height: 300px;
     padding-top: 30px;
   }
   
   .partner-2 h3 {
     padding-top: 60px;
-    font-size: 3vw;
+    font-size: 50px;
     color: #fff;
     font-weight: 400;
     color: #787879;
   }
 
   .partner-2 img {
-    width: 15vw;
+    width: 200px;
   }
 
   .copyrights-2 {
@@ -844,7 +846,7 @@ main {
     padding-top: 20px;
     padding-bottom: 20px;
     background: #fff;
-    height: 30vh;
+    height: 300px;
     align-items: center;
   }
   
@@ -863,13 +865,13 @@ main {
 
   .activities h6 {
     color: #ec5242;
-    font-size: 19px;
+    font-size: 24px;
     padding-right: 40px;
   }
   
   .activities p {
     color: #fff;
-    font-size: 1.5vw;
+    font-size: 19px;
     width: 100%;
     text-align: center;
   }
