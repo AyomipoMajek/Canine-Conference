@@ -7,37 +7,37 @@ const featuredSpeakers = document.querySelector('.featuredSpeakers')
 const spk = [
   {
     name: 'Dr. Thomas Davies',
-    picture: 'images/chairman akc.jpg',
+    picture: 'Images/chairman akc.jpg',
     proffession: 'Chairman American Kennel Club',
     resume: 'Dr. Thomas is a vet and an animal rights activist',
   },
   {
     name: 'Gina M. DiNardo',
-    picture: 'images/akc gina.jpg',
+    picture: 'Images/akc gina.jpg',
     proffession: 'Executive Secretary AKC',
     resume: 'Gina is a researcher and dog breeder',
   },
   {
     name: 'Lucas Jacobs',
-    picture: 'images/akc board member.jpg',
+    picture: 'Images/akc board member.jpg',
     proffession: 'Top dog researcher and breeder',
     resume: 'Lucas is a renowned researcher and dog breeder',
   },
   {
     name: 'Dr Fred Johnson',
-    picture: 'images/akc davies.jpg',
+    picture: 'Images/akc davies.jpg',
     proffession: 'Veterinary doctor and dog rights activist',
     resume: 'Dr Fred is a dog rights activist and a dog therapist',
   },
   {
     name: 'Bruce Wayne',
-    picture: 'images/akc jack.jpg',
+    picture: 'Images/akc jack.jpg',
     proffession: 'Dog trainer and kennel owner',
     resume: 'Bruce is a proffessional dog trainer and breeder',
   },
   {
     name: 'Leonard Peckham',
-    picture: 'images/akc junior.jpg',
+    picture: 'Images/akc junior.jpg',
     proffession: 'Animal research scientist',
     resume: 'Leonard is a top dog research scientist and dog lover',
   },

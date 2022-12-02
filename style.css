@@ -64,7 +64,7 @@ main {
   background-image: linear-gradient(
     rgba(253, 253, 253, 0.88),
     rgba(253, 253, 253, 0.88)
-  ), url(images/new\ bg\ image.webp);
+  ), url(Images/new\ bg\ image.webp);
   background-position: center;
   background-size: cover;
   padding-bottom: 40px;
@@ -115,7 +115,7 @@ main {
   font-weight: 1000;
   font-size: 12vw;
   line-height: 40px;
-  background-image: url(images/new\ dog.jpg);
+  background-image: url(Images/new\ dog.jpg);
   background-position: right;
   background-clip: text;
   color: #ec5242;
@@ -589,7 +589,7 @@ main {
     background-image: linear-gradient(
     rgba(253, 253, 253, 0.88),
     rgba(253, 253, 253, 0.88)
-    ), url(images/dogs.jpg);
+    ), url(Images/dogs.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -863,8 +863,8 @@ main {
 
   .activities h6 {
     color: #ec5242;
-    font-size: 1.8vw;
-    text-align: center;
+    font-size: 19px;
+    padding-right: 40px;
   }
   
   .activities p {
