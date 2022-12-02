@@ -24,4 +24,4 @@
 [Live Demo]( https://ayomipomajek.github.io/Canine-Conference/)
 
 # Website walkthrough
-[Video Presentation]()
+[Video Presentation](https://www.loom.com/share/37e2d409921a4e709a29ec262b03bbab)
