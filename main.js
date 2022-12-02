@@ -14,7 +14,7 @@ const spk = [
   {
     name: 'Gina M. DiNardo',
     picture: 'images/akc gina.jpg',
-    proffession: 'Executive Secretary American Kennel Club',
+    proffession: 'Executive Secretary AKC',
     resume: 'Gina is a researcher and dog breeder',
   },
   {
@@ -44,7 +44,7 @@ const spk = [
 ];
 
 // display featured speakers
-const desktop = window.matchMedia('max-width:767px');
+const desktop = window.matchMedia('(max-width:767px)');
 
 // featured speaker section
 
@@ -80,5 +80,26 @@ window.addEventListener('load', () => {
 window.addEventListener('resize', () => {
   loading();
 });
+
+//for menutray
+
+const btnClose = document.querySelector('.close-btn');
+const menuTray = document.querySelector('.menuBars');
+const menuList = document.querySelector('.menuList');
+const menuContainer = document.querySelector('.menucontainer');
+const linkSection = document.querySelector('.menu-link');
+
+const openBtn = function () {
+  menuContainer.style.display = 'flex';
+};
+menuTray.addEventListener('click', openBtn);
+
+const closeBtn = function () {
+  menuContainer.style.display = 'none';
+};
+
+btnClose.addEventListener('click', closeBtn);
+menuList.addEventListener('click', closeBtn);
+
 
 

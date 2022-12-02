@@ -4,28 +4,34 @@
   font-family: 'Lato', sans-serif;
 }
 
-.mobile-menu {
+.menucontainer {
+  display: none;
   position: fixed;
   flex-direction: column;
-  background-color: #272a31;
+  background-color: #fff;
   top: 0;
   width: 100%;
-  justify-content: center;
-  align-items: center;
   height: 800px;
 }
 
-.links {
+.menu-container {
+  flex-direction: column;
+  top: 0;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.menuList {
   margin-top: 70px;
   padding-left: 70px;
 }
 
-.links li {
+.menuList li {
   margin-bottom: 30px;
   list-style-type: none;
 }
 
-.links a {
+.menuList a {
   list-style-type: none;
   text-decoration: none;
   font-size: 22px;
@@ -33,11 +39,18 @@
   color: #f628118a;
 }
 
+.menu-container-2 {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  top: 0;
+}
+
 .close-btn {
   top: 15px;
   left: 25px;
   font-size: 35px;
-  background-color: #272a31;
+  background-color: #fff;
   border: none;
   width: 43px;
   position: absolute;
@@ -366,7 +379,6 @@ main {
 
 .logo {
   filter: invert(100%);
-  
 }
 
 .activities h6 {
@@ -465,7 +477,7 @@ main {
     border: 1px solid #272a31;
     margin-top: 35px;
     margin-bottom: 25px;
-    margin-right: 3vw;
+    width: 95vw;
 }
 
 .fa-solid {

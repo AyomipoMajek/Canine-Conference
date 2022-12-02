@@ -11,6 +11,18 @@
 </head>
 <body>
   <main>
+    <nav class="menucontainer">
+      <i class="fa-solid fa-xmark close-btn"></i>
+      <ul class="menuList">
+        <li class="menu-link"><a href="index.html">Home</a></li>
+        <li class="menu-link"><a href="#program">Main Program</a></li>
+        <li class="menu-link"><a href="#featuredSpeakers">Featured Speakers</a></li>
+        <li class="menu-link"><a href="about.html#info-2">About</a></li>
+        <li class="menu-link"><a href="#about-html#logo">Logo</a></li>
+        <li class="menu-link"><a href="about.html#allconcert">Past Conference</a></li>
+      </ul>
+    </nav>
+
     <header class="menu">
         <div class="desktopmenu">
           <a><i class="fa-brands fa-facebook-f"></i></a>
@@ -22,12 +34,12 @@
 
         <div class="logomenu">
           <nav class="mainlogo">
-            <a href="#" class="mlogo">DLGC</a>
+            <a href="index.html" class="mlogo">DLGC</a>
           </nav>
           <div class="menu-container">
             <ul class="menulist">
               <li><a href="#about">About</a></li>
-              <li><a href="#program">Program</a></li>
+              <li><a href="index.html#program">Program</a></li>
               <li><a href="#join">Join</a></li>
               <li><a href="#sponsor">Sponsor</a></li>
               <li><a href="#news">News</a></li>
@@ -60,7 +72,7 @@
     </section>
 
     <section class="aboutlogo">
-      <div class="logosection">
+      <div class="logosection" id="logo">
         <h3>Dog Lovers Global Conference 2022 Logo</h3>
         <div class="bar-2"></div>
         <p>The logo of DL Global Conference 2022 was decided through the logo competition from 8. March to 9. April.</p>
@@ -73,7 +85,7 @@
         <div class="bar-2"></div>
         <p>Take a look at the last two DL Global Conferences which took place in Canada and Ghana.</p>
       </div>
-      <div class="allconcert">
+      <div class="allconcert" id="allconcert">
         <div class="pastconcert">
           <img class="concertimg" src="images/concert pic.jpg">
           <h4 class="year">2020</h4>
@@ -102,4 +114,5 @@
       <p>2022 Dog Lovers Nigeria. <br> Some Rights Reserved</p>
     </section>
   </main>
+  <script src="main.js"></script>
 </body>
