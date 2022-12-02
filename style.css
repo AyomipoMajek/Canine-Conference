@@ -292,6 +292,7 @@ main {
 .logos img {
   width: 50px;
   padding: 10px;
+  filter: invert(50%);
 }
 
 .bar-4 {
@@ -849,6 +850,7 @@ main {
 
   .partner-2 img {
     width: 200px;
+    filter: invert(50%);
   }
 
   .copyrights-2 {
