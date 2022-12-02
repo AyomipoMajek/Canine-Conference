@@ -1,8 +1,8 @@
 'use script';
 
-const featuredSpeakers = document.querySelector('.featuredSpeakers')
+const featuredSpeakers = document.querySelector('.featuredSpeakers');
 
-//Array of featured speakers:
+// Array of featured speakers:
 
 const spk = [
   {
@@ -69,7 +69,7 @@ const displaySpeakers = function (n) {
 
 const loading = function () {
   if (!desktop.matches) {
-    displaySpeakers(spk.length)
+    displaySpeakers(spk.length);
   } else {
     displaySpeakers(2);
   }
@@ -81,13 +81,12 @@ window.addEventListener('resize', () => {
   loading();
 });
 
-//for menutray
+// for menutray
 
 const btnClose = document.querySelector('.close-btn');
 const menuTray = document.querySelector('.menuBars');
 const menuList = document.querySelector('.menuList');
 const menuContainer = document.querySelector('.menucontainer');
-const linkSection = document.querySelector('.menu-link');
 
 const openBtn = function () {
   menuContainer.style.display = 'flex';
@@ -100,6 +99,3 @@ const closeBtn = function () {
 
 btnClose.addEventListener('click', closeBtn);
 menuList.addEventListener('click', closeBtn);
-
-
-

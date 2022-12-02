@@ -61,14 +61,16 @@ main {
 }
 
 .bg-image {
-  background-image: linear-gradient(
-    rgba(253, 253, 253, 0.88),
-    rgba(253, 253, 253, 0.88)
-  ), url(Images/new\ bg\ image.webp);
+  background-image:
+    linear-gradient(
+      rgba(253, 253, 253, 0.88),
+      rgba(253, 253, 253, 0.88)
+    ),
+    url(Images/new\ bg\ image.webp);
   background-position: center;
   background-size: cover;
   padding-bottom: 40px;
-} 
+}
 
 .bar {
   display: block;
@@ -117,8 +119,6 @@ main {
   line-height: 40px;
   background-image: url(Images/new\ dog.jpg);
   background-position: right;
-  background-clip: text;
-  color: #ec5242;
   -webkit-background-clip: text;
   color: transparent;
   padding-bottom: 20px;
@@ -242,7 +242,7 @@ main {
 
 .pastconcert {
   display: flex;
-  background-color: #ff0000;
+  background-color: #ff00;
   width: 288px;
   height: 200px;
   justify-content: center;
@@ -341,7 +341,6 @@ main {
   display: flex;
   flex-direction: column;
   background-color: #272a31;
-
 }
 
 .allprograms {
@@ -468,22 +467,21 @@ main {
 }
 
 .more {
-    padding: 13px;
-    color: #272a31;
-    background-color: #fff;
-    font-weight: 500;
-    font-size: 15px;
-    margin-left: 8px;
-    border: 1px solid #272a31;
-    margin-top: 35px;
-    margin-bottom: 25px;
-    width: 305px;
+  padding: 13px;
+  color: #272a31;
+  background-color: #fff;
+  font-weight: 500;
+  font-size: 15px;
+  margin-left: 8px;
+  border: 1px solid #272a31;
+  margin-top: 35px;
+  margin-bottom: 25px;
+  width: 305px;
 }
 
 .fa-solid {
   color: #ec5242;
 }
-
 
 @media (max-width: 768px) {
   .desktopmenu,
@@ -492,7 +490,7 @@ main {
   .partner-2,
   .copyrights-2,
   #otherspeakers {
-  display: none;
+    display: none;
   }
 }
 
@@ -509,7 +507,6 @@ main {
     display: flex;
     list-style-type: none;
     background: #3c3e42;
-    background-position: fixed;
     color: #fff;
     justify-content: end;
     padding-right: 10%;
@@ -538,7 +535,7 @@ main {
     justify-self: start;
   }
 
-  .mlogo {
+  .mlogo1 {
     justify-content: start;
     text-decoration: none;
     font-size: 40px;
@@ -552,7 +549,7 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: end;
-    list-style-type: none; 
+    list-style-type: none;
   }
 
   .menulist a {
@@ -565,6 +562,25 @@ main {
 
   .menulist li {
     padding-top: 25px;
+  }
+
+  .lastbtn a {
+    color: #fff;
+    font-size: 1.5vw;
+  }
+
+  .copyrights a {
+    color: #fff;
+    font-size: 40px;
+    line-height: 40px;
+    padding-left: 50px;
+  }
+
+  .copyrights-2 a {
+    font-size: 5vw;
+    padding-left: 30px;
+    line-height: 60px;
+    padding-right: 20px;
   }
 
   li a:hover {
@@ -586,10 +602,12 @@ main {
   }
 
   .intro {
-    background-image: linear-gradient(
-    rgba(253, 253, 253, 0.88),
-    rgba(253, 253, 253, 0.88)
-    ), url(Images/dogs.jpg);
+    background-image:
+      linear-gradient(
+        rgba(253, 253, 253, 0.88),
+        rgba(253, 253, 253, 0.88)
+      ),
+      url(Images/dogs.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -656,7 +674,7 @@ main {
     font-weight: 550;
     padding-top: 80px;
   }
-  
+
   .aboutlogo p {
     color: #272a31;
     font-size: 1.5vw;
@@ -664,7 +682,7 @@ main {
     width: 52vw;
     margin-left: 23vw;
   }
-  
+
   .theLogo {
     margin-top: 60px;
     margin-bottom: 40px;
@@ -672,7 +690,7 @@ main {
     width: 500px;
     margin-left: 32vw;
   }
-  
+
   .mlogo {
     text-decoration: none;
     font-size: 50px;
@@ -690,7 +708,7 @@ main {
     margin-left: 70px;
     font-weight: 800;
   }
-  
+
   .date h4 {
     padding-top: 5px;
     color: #272a31;
@@ -752,13 +770,6 @@ main {
     align-items: center;
   }
 
-  .copyrights a {
-    color: #fff;
-    font-size: 40px;
-    line-height: 40px;
-    padding-left: 50px;
-  }
-  
   .copyrights p {
     color: #fff;
     font-size: 15px;
@@ -828,11 +839,10 @@ main {
     height: 300px;
     padding-top: 30px;
   }
-  
+
   .partner-2 h3 {
     padding-top: 60px;
     font-size: 50px;
-    color: #fff;
     font-weight: 400;
     color: #787879;
   }
@@ -849,14 +859,7 @@ main {
     height: 300px;
     align-items: center;
   }
-  
-  .copyrights-2 a {
-    font-size: 5vw;
-    padding-left: 30px;
-    line-height: 60px;
-    padding-right: 20px;
-  }
-  
+
   .copyrights-2 p {
     font-size: 2vw;
     color: #272a31;
@@ -868,7 +871,7 @@ main {
     font-size: 24px;
     padding-right: 40px;
   }
-  
+
   .activities p {
     color: #fff;
     font-size: 19px;
@@ -885,10 +888,4 @@ main {
     align-self: center;
     margin-bottom: 8vh;
   }
-
-  .lastbtn a{
-    color: #fff;
-    font-size: 1.5vw;
-  }
-
 }
