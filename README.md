@@ -21,7 +21,7 @@
 * Original design by [Cindy Shin in Behance](https://www.behance.net/adagio07)
 
 # Live Demo
-[Live Demo]()
+[Live Demo]( https://ayomipomajek.github.io/Canine-Conference/)
 
 # Website walkthrough
 [Video Presentation]()
