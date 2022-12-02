@@ -116,7 +116,7 @@ main {
 .intro h2 {
   font-weight: 1000;
   font-size: 38px;
-  line-height: 40px;
+  line-height: 9vh;
   background-image: url(Images/new\ dog.jpg);
   background-position: right;
   -webkit-background-clip: text;
@@ -129,7 +129,6 @@ main {
   font-size: 38px;
   color: #ec5242;
   padding-bottom: 20px;
-  line-height: 40px;
   text-align: center;
 }
 
@@ -242,7 +241,7 @@ main {
 
 .pastconcert {
   display: flex;
-  background-color: #ff00;
+  background-color: #ae2e0b;
   width: 288px;
   height: 200px;
   justify-content: center;
@@ -626,7 +625,7 @@ main {
   }
 
   .intro h2 {
-    line-height: 9vh;
+    line-height: 7vh;
     justify-content: start;
     margin-left: 70px;
     font-size: 5.5vw;
@@ -635,6 +634,7 @@ main {
 
   .intro-2 h2 {
     margin-top: 10vh;
+    line-height: 5vh;
     font-size: 5vw;
   }
 
