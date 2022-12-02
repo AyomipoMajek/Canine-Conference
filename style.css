@@ -113,7 +113,7 @@ main {
 
 .intro h2 {
   font-weight: 1000;
-  font-size: 12vw;
+  font-size: 38px;
   line-height: 40px;
   background-image: url(Images/new\ dog.jpg);
   background-position: right;
@@ -126,7 +126,7 @@ main {
 
 .intro-2 h2 {
   font-weight: 1000;
-  font-size: 12vw;
+  font-size: 38px;
   line-height: 40px;
   color: #ec5242;
   padding-bottom: 20px;
@@ -135,7 +135,7 @@ main {
 
 .info {
   color: #272a31;
-  font-size: 4vw;
+  font-size: 13px;
   font-weight: 500;
   padding: 10px;
   border: 2px solid white;
@@ -145,21 +145,21 @@ main {
 
 .info-2 {
   color: #272a31;
-  font-size: 4vw;
+  font-size: 13px;
   font-weight: 500;
   padding: 10px;
   border: 2px solid white;
   background: #fff;
   align-items: center;
-  margin-right: 4vw;
-  line-height: 3vh;
+  margin-right: 10px;
+  line-height: 18px;
   text-align: center;
 }
 
 .contact {
-  font-size: 3.8vw;
+  font-size: 10px;
   text-align: center;
-  width: 60vw;
+  width: 200px;
   align-self: center;
   margin-top: 20px;
   margin-bottom: 30px;
@@ -193,11 +193,11 @@ main {
 
 .aboutlogo p {
   color: #272a31;
-  font-size: 4vw;
+  font-size: 12px;
   font-weight: 500;
-  margin-right: 4vw;
-  line-height: 3vh;
-  width: 92vw;
+  margin-right: 10px;
+  line-height: 18px;
+  width: 300px;
   padding-left: 10px;
 }
 
@@ -243,7 +243,7 @@ main {
 .pastconcert {
   display: flex;
   background-color: #ff0000;
-  width: 90vw;
+  width: 288px;
   height: 200px;
   justify-content: center;
   align-items: center;
@@ -265,7 +265,7 @@ main {
 }
 
 .concertimg {
-  width: 90vw;
+  width: 288px;
   height: 200px;
   filter: opacity(0.3);
 }
@@ -424,7 +424,7 @@ main {
 }
 
 .featuredSpeakers img {
-  width: 25vw;
+  width: 100px;
 }
 
 .spk {
@@ -473,11 +473,11 @@ main {
     background-color: #fff;
     font-weight: 500;
     font-size: 15px;
-    margin-left: 3vw;
+    margin-left: 8px;
     border: 1px solid #272a31;
     margin-top: 35px;
     margin-bottom: 25px;
-    width: 95vw;
+    width: 305px;
 }
 
 .fa-solid {
