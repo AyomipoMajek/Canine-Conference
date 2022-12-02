@@ -24,7 +24,7 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
 
-  <img src="Imagees/murple_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto"/>
   <br/>
 
   <h3><b>Microverse README Template</b></h3>
@@ -89,7 +89,11 @@ After you're finished please remove all the comments and instructions!
 
 - [Live Demo Link](https://ayomipomajek.github.io/Canine-Conference/)
 
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+# Video Presentation
+[Video Presentation](https://www.loom.com/share/37e2d409921a4e709a29ec262b03bbab)
 
 <!-- GETTING STARTED -->
 
@@ -209,7 +213,7 @@ If you like this project...
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank [Cindy Shin in Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
+I would like to thank [Cindy Shin in Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) for the original template of the project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

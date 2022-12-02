@@ -100,23 +100,22 @@ main {
   padding-left: 10px;
 }
 
-.intro h1 {
+.intro h2 {
   color: #ec5242;
   font-weight: 100;
   font-size: 20px;
 }
 
-.intro-2 h1 {
+.intro-2 h2 {
   color: #ec5242;
   font-weight: 100;
   font-size: 20px;
   text-align: center;
 }
 
-.intro h2 {
+.intro h1 {
   font-weight: 1000;
   font-size: 38px;
-  line-height: 9vh;
   background-image: url(Images/new\ dog.jpg);
   background-position: right;
   -webkit-background-clip: text;
@@ -124,7 +123,7 @@ main {
   padding-bottom: 20px;
 }
 
-.intro-2 h2 {
+.intro-2 h1 {
   font-weight: 1000;
   font-size: 38px;
   color: #ec5242;
@@ -287,6 +286,7 @@ main {
   list-style-type: none;
   margin-left: 20px;
   margin-right: 20px;
+  align-items: center;
 }
 
 .logos img {
@@ -612,7 +612,7 @@ main {
     background-size: cover;
   }
 
-  .intro h1 {
+  .intro h2 {
     font-size: 50px;
     justify-content: start;
     margin-left: 70px;
@@ -620,21 +620,19 @@ main {
     padding-bottom: 30px;
   }
 
-  .intro-2 h1 {
+  .intro-2 h2 {
     display: none;
   }
 
-  .intro h2 {
-    line-height: 7vh;
+  .intro h1 {
     justify-content: start;
     margin-left: 70px;
     font-size: 5.5vw;
     padding-bottom: 30px;
   }
 
-  .intro-2 h2 {
+  .intro-2 h1 {
     margin-top: 10vh;
-    line-height: 5vh;
     font-size: 5vw;
   }
 
@@ -681,6 +679,7 @@ main {
     font-weight: 500;
     width: 52vw;
     margin-left: 23vw;
+    line-height: 30px;
   }
 
   .theLogo {
@@ -859,6 +858,7 @@ main {
     background: #fff;
     height: 300px;
     align-items: center;
+    padding-left: 50px;
   }
 
   .copyrights-2 p {
